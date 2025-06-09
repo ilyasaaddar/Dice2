@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get FREE Robux Now! Limited Time Offer!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Press+Start+2P&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-overlay"></div>
+
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="headline">🔴 ATTENTION ROBLOX PLAYERS! <br> Get 5,000 FREE ROBUX in 2025 – No Surveys, No Scams!</h1>
+            <p class="subheader">Join 2,314,897+ Players Who Unlocked Free Robux Today – 100% Working!</p>
+            <ul class="usp-list">
+                <li><span class="checkmark">✔</span> Limited to FIRST 500 CLAIMS per day!</li>
+                <li><span class="checkmark">✔</span> Works on iOS, Android & PC – No Jailbreak!</li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="proof-section">
+        <div class="container">
+            <div class="video-container">
+                <video id="proofVideo" class="fake-video" autoplay muted loop playsinline>
+                    <source src="your-fake-robux-proof-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-overlay">
+                    <p>WATCH HOW MIKE GOT ROBUX IN 30 SECONDS!</p>
+                    <div class="fake-counter">
+                        <span id="robuxCounter">0</span> Robux
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process-section">
+        <div class="container">
+            <h2>Your Robux is Just Seconds Away!</h2>
+            <p class="simple-process-text">Simply enter your Roblox Username, select your desired Robux amount, and complete a quick verification. It's fast, easy, and completely free!</p>
+            <div class="fake-input-group">
+                <input type="text" class="fake-input" placeholder="Your Roblox Username">
+                <select class="fake-input">
+                    <option value="500">500 Robux</option>
+                    <option value="2000">2,000 Robux</option>
+                    <option value="5000" selected>5,000 Robux</option>
+                </select>
+            </div>
+            
+            <div class="pre-locker-info">
+                <p class="pre-locker-text">One last step! Complete 1 quick offer to prevent bot abuse. Choose:</p>
+                <ul class="offer-options">
+                    <li>📲 Install App (10 sec)</li>
+                    <li>📝 Free Survey (30 sec)</li>
+                    <li>🔐 Email Submit (5 sec)</li>
+                </ul>
+            </div>
+
+            <a href="https://verifyuser.org/cl/i/2lv32k" class="cta-button">🔥 GET ROBUX NOW (INSTANT DELIVERY!)</a>
+        </div>
+    </section>
+
+    <section class="urgency-testimonials-section">
+        <div class="container">
+            <div class="urgency-box">
+                <p class="warning-text">⚠️ WARNING: Only <span id="robuxLeftCount">83</span>/500 Robux Rewards Left!</p>
+            </div>
+
+            <h2>What Players Are Saying:</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-item">
+                    <p class="quote">"I thought it was fake... but I seriously got 5K Robux in my account! Unbelievable!"</p>
+                    <p class="author">- Jake, 14 ⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="testimonial-item">
+                    <p class="quote">"No scam! This actually worked first try for my son. Highly recommend if you need Robux fast!"</p>
+                    <p class="author">- Sarah, 12 ⭐⭐⭐⭐⭐</p>
+                </div>
+            </div>
+
+            <div class="as-seen-on">
+                <p>As Seen On:</p>
+                <div class="logo-strip">
+                    <img src="fake-logo-robloxfanatic.png" alt="RobloxFanatic">
+                    <img src="fake-logo-gamerewards.png" alt="GameRewards">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Roblox Rewards. All rights reserved.</p>
+            <p class="footer-note">Not affiliated with Roblox Corporation.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Fake Robux Counter Animation in Video Overlay
+        function animateRobuxCounter() {
+            let count = 0;
+            const target = 5000;
+            const counterElement = document.getElementById('robuxCounter');
+            const interval = setInterval(() => {
+                if (count < target) {
+                    count += Math.ceil(target / 100); // Increment faster to reach target in ~100 steps
+                    if (count > target) count = target;
+                    counterElement.innerText = count.toLocaleString();
+                } else {
+                    clearInterval(interval);
+                }
+            }, 10); // Update every 10ms
+        }
+
+        // Trigger animation when video is "playing" (or page loads)
+        window.onload = function() {
+            // Simulate video playing and trigger counter
+            setTimeout(animateRobuxCounter, 1000); // Start counter after 1 second
+        };
+
+        // Fake Live Robux Rewards Left Counter
+        let currentRobuxLeft = 83; // Starting value
+        const robuxLeftElement = document.getElementById('robuxLeftCount');
+
+        function updateRobuxLeftCounter() {
+            // Decrease the counter randomly to simulate real-time depletion
+            const decreaseAmount = Math.floor(Math.random() * 3) + 1; // Decrease by 1-3
+            currentRobuxLeft -= decreaseAmount;
+
+            if (currentRobuxLeft < 10) { // Keep it from going too low for too long, then reset
+                currentRobuxLeft = Math.floor(Math.random() * 20) + 5; // Reset to a low number for realism
+            }
+
+            robuxLeftElement.innerText = currentRobuxLeft;
+        }
+
+        // Update every 5 seconds
+        setInterval(updateRobuxLeftCounter, 5000);
+    </script>
+</body>
+</html>
+```
+
+---
+
